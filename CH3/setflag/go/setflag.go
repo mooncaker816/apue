@@ -87,3 +87,11 @@ func flagInfo(fd int) {
 	}
 	fmt.Println()
 }
+
+//  ./setflag 5 0x80 5>>temp.foo
+// before set flag:
+// write only, append
+// after set flag:
+// write only, append, synchronous writes
+// after reset back flag:
+// write only, append

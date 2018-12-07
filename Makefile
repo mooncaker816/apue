@@ -1,4 +1,4 @@
-CHS = CH1 CH3
+CHS = CH1 CH3 CH4
 LANG = c go
 
 all:
